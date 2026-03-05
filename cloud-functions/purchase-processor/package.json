@@ -1,0 +1,12 @@
+{
+  "name": "purchase-processor",
+  "version": "1.0.0",
+  "description": "Cloud Function: Pub/Sub → BigQuery purchase event processor",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@google-cloud/bigquery": "^7.3.0"
+  }
+}
